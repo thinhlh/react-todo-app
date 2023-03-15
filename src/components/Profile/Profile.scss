@@ -1,0 +1,19 @@
+.profile-container {
+    background-color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p,
+    h4 {
+        text-align: center;
+    }
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
